@@ -12,17 +12,18 @@
     color: rgb(43, 50, 91);
 }
 
+
 h1 span {
     background-color: rgb(202, 72, 65);
     color: white;
     padding: 12px 35px 12px 35px;
     border-radius: 30px;
-    font-size: 22px;
+    font-size: 19px;
     box-shadow: rgb(54, 53, 53) 5px 5px 10px;
 }
 
 .texte h2 {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 40px;
 }
 
@@ -43,19 +44,19 @@ h1 span {
 .image img {
     width: 500px;
     object-fit: cover;
-    margin-top: 120px;
-    margin-left: 120px;
+    margin-top: 110px;
+    margin-left: 150px;
     border-radius: 15px;
-    box-shadow: 50px -40px rgb(0, 167, 157);
+    box-shadow: 20px -20px rgb(0, 167, 157);
     cursor: pointer;
-    transition: all ease-in-out 2s;
+    /*transition: all ease-in-out 2s;*/
 }
 
-.image img:hover {
+/*.image img:hover {
     transform: scale(1.10);
     box-shadow: 20px -20px rgb(0, 167, 157);
     transition-duration: 0.8s;
-}
+}*/
 
 .image-plaquette {
     display: flex;
@@ -109,3 +110,44 @@ h1 span {
     margin-right: 8%;
     font-size: 35px;
 }
+
+
+
+
+/******* RESPONSIVE TABLETTE *******/
+
+@media screen and (min-width: 1351px) and (max-width: 1679px) {
+
+    .texte {
+        width: 55%;
+    }
+
+    .image {
+        width: 45%;
+    }
+
+    h1 span {
+      font-size: 17px;
+    }
+
+    .texte h2 {
+        font-size: 17px;
+    }
+
+    .image img {
+        width: 450px;
+        margin-left: 120px;
+    }
+
+  }
+
+
+
+/******* RESPONSIVE MOBILE *******/
+
+@media screen and (max-width: 779px) {
+
+    .card-text {
+      font-size: 20px;
+    }
+  }
