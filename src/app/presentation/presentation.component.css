@@ -114,9 +114,9 @@ h1 span {
 
 
 
-/******* RESPONSIVE TABLETTE *******/
+/******* RESPONSIVE ORDINATEUR PETITE TAILLE *******/
 
-@media screen and (min-width: 1351px) and (max-width: 1679px) {
+@media screen and (min-width: 1413px) and (max-width: 1679px) {
 
     .texte {
         width: 55%;
@@ -135,8 +135,53 @@ h1 span {
     }
 
     .image img {
-        width: 450px;
+        width: 400px;
         margin-left: 120px;
+        margin-top: 130px;
+    }
+
+    .description {
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+  }
+
+
+  /******* RESPONSIVE TABLETTE *******/
+
+  @media screen and (min-width: 779px) and (max-width: 1412px) {
+
+    .texte {
+        width: 60%;
+    }
+
+    .image {
+        width: 40%;
+    }
+
+    .image img {
+        width: 350px;
+        margin-top: 100px;
+        margin-left: 60px;
+    }
+
+    .texte {
+        margin-top: 80px;
+    }
+
+    .description {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    h1 span {
+        font-size: 14px;
+        padding: 12px 15px 12px 15px;
+    }
+
+    .texte h2 {
+        font-size: 15px;
     }
 
   }
@@ -147,7 +192,5 @@ h1 span {
 
 @media screen and (max-width: 779px) {
 
-    .card-text {
-      font-size: 20px;
-    }
+    
   }
