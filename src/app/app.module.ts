@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 import { PresentationComponent } from './presentation/presentation.component';
 import { WhoComponent } from './who/who.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { WhoComponent } from './who/who.component';
     HomeComponent,
     NavComponent,
     PresentationComponent,
-    WhoComponent
+    WhoComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
