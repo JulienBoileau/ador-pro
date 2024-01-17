@@ -23,19 +23,20 @@ h1 span {
 }
 
 .texte h2 {
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 22px;
+    line-height: 55px;
 }
 
 .description {
     color : rgb(202, 72, 65);
     font-size: 24px;
-    line-height: 50px;
+    line-height: 60px;
 }
 
 .texte hr {
     height: 10px;
     background-color: rgb(0, 167, 157);
+    opacity: 1;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border: none;
@@ -45,7 +46,7 @@ h1 span {
     width: 500px;
     object-fit: cover;
     margin-top: 110px;
-    margin-left: 150px;
+    margin-left: 200px;
     border-radius: 15px;
     box-shadow: 20px -20px rgb(0, 167, 157);
     cursor: pointer;
@@ -78,7 +79,7 @@ h1 span {
     background: linear-gradient(110deg, #2b325b 60%, #ca4841 60%);
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    padding: 10px 0px 8px 5px;
+    padding: 35px 0px 18px 5px;
     font-family: 'Helvetica', sans-serif;
     width: 80%;
     margin: auto;
@@ -101,6 +102,7 @@ h1 span {
 
 .subtitle {
     font-size: 28px;
+    line-height: 32px;
 }
 
 .texte-deux {
@@ -109,11 +111,14 @@ h1 span {
 }
 
 .bulle {
-    width: 23%;
-    margin-top: 10px;
+    width: 24%;
     margin-left: 80px;
-    margin-right: 8%;
+    margin-right: 6%;
     font-size: 25px;
+}
+
+.bulle h3 {
+    line-height: 60px;
 }
 
 .equipe {
@@ -126,6 +131,10 @@ h1 span {
     color: #ca4841;
     padding: 10px 12px 10px 12px;
     border-radius: 10px;
+}
+
+.jacques {
+    margin-bottom: 20px;
 }
 
 .citation img {
@@ -186,12 +195,38 @@ h1 span {
         line-height: 40px;
     }
 
+    .subtitle {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .texte-deux {
+        width: 50%;
+        margin-left: 80px;
+    }
+    
+    .bulle {
+        width: 24%;
+        margin-left: 80px;
+        margin-right: 6%;
+    }
+
+    .bulle h3 {
+        font-size: 22px;
+        line-height: 55px;
+    }
+    
+    .equipe {
+        font-size: 17px;
+        line-height: 18px;
+    }
+
   }
 
 
   /******* RESPONSIVE TABLETTE *******/
 
-  @media screen and (min-width: 779px) and (max-width: 1412px) {
+  @media screen and (min-width: 1010px) and (max-width: 1412px) {
 
     .texte {
         width: 60%;
@@ -228,6 +263,10 @@ h1 span {
         font-size: 15px;
     }
 
+    .presentation-deux{
+        background: linear-gradient(110deg, #2b325b 57%, #ca4841 57%);
+    }
+
     .texte-deux {
         margin-left: 60px;
     }
@@ -244,13 +283,38 @@ h1 span {
         font-size: 25px;
     }
 
+    .subtitle {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .texte-deux {
+        width: 50%;
+        margin-left: 60px;
+    }
+    
+    .bulle {
+        margin-right: 4%;
+        width: 30%;
+    }
+
+    .bulle h3 {
+        font-size: 20px;
+        line-height: 55px;
+    }
+    
+    .equipe {
+        font-size: 15px;
+        line-height: 16px;
+    }
+
   }
 
 
 
 /******* RESPONSIVE MOBILE *******/
 
-@media screen and (max-width: 779px) {
+@media screen and (max-width: 1010px) {
 
 
   }

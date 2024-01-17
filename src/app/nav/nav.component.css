@@ -1,3 +1,8 @@
+
+.navbar {
+  display: none;
+}
+
 .navigation {
     font-family: 'Helvetica', sans-serif;
     position: relative;
@@ -41,6 +46,7 @@
 #nav-line {
     height: 2px;
     background-color: rgb(202, 72, 65);
+    opacity: 1;
     border: none;
     width: 80%;
     margin: auto;
@@ -79,12 +85,41 @@
   }
 
 
-  /******* RESPONSIVE ORDINATEUR PETITE TAILLE *******/
+  /******* RESPONSIVE TABLETTE *******/
 
-@media screen and (min-width: 779px) and (max-width: 1413px) {
+@media screen and (min-width: 1010px) and (max-width: 1413px) {
+
+  .menu {
+    width: 58%;
+    margin-left: 310px;
+  }
 
     .menu li {
         font-size: 16px;
     }
 
+    .logo img {
+      position: absolute;
+      width: 280px;
+      top: 42px;
+      left: 25px;
+  }
+
+}
+
+/******* RESPONSIVE MOBILE *******/
+
+@media screen and (max-width: 1010px) {
+
+  .navbar {
+    display: flex;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .nav-line {
+    display: none;
+  }
 }
