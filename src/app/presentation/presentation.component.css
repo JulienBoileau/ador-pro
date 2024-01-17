@@ -19,7 +19,7 @@ h1 span {
     padding: 12px 35px 12px 35px;
     border-radius: 30px;
     font-size: 19px;
-    box-shadow: rgb(54, 53, 53) 5px 5px 10px;
+    box-shadow: rgb(54, 53, 53) 3px 3px 10px;
 }
 
 .texte h2 {
@@ -134,11 +134,18 @@ h1 span {
 
 .citation {
     font-family: 'Helvetica', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color: #2b325b;
     margin-top: 80px;
-    margin-bottom: 80px;
     text-align: center;
+}
+
+#trait-bleu {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 80px;
+    width: 800px;
 }
 
 .fitwo {

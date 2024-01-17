@@ -35,6 +35,7 @@
     color: rgb(202, 72, 65);
     text-decoration: underline;
     text-underline-offset: -2.0rem;
+    text-decoration-thickness: 2px;
 }
 
 #nav-line {
