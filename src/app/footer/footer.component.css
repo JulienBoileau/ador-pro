@@ -52,6 +52,10 @@ footer {
 
 
 @media screen and (max-width: 1010px) {
+
+    footer {
+        margin-top: 60px;
+    }
     
     .reseaux {
         width: 50%;

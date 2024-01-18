@@ -126,6 +126,17 @@
     display: none;
   }
 
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-menu a {
+    text-decoration: none;
+    color: rgb(202, 72, 65);
+    margin-bottom: 15px;
+  }
+
   .navbar img {
     margin-left: 40px;
     width: 200px;
@@ -136,5 +147,10 @@
     padding-top: 9px;
     border: none;
     background-color: rgb(202, 72, 65);
+  }
+
+  .offcanvas {
+    width: 70%;
+    max-width: 400px;
   }
 }
