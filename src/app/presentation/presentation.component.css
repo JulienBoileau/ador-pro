@@ -49,8 +49,6 @@ h1 span {
     margin-left: 200px;
     border-radius: 15px;
     box-shadow: 20px -20px rgb(0, 167, 157);
-    cursor: pointer;
-    /*transition: all ease-in-out 2s;*/
 }
 
 /***** ANIMATION IMAGE *****/
@@ -135,10 +133,6 @@ h1 span {
 
 .jacques {
     margin-bottom: 20px;
-}
-
-.citation img {
-    color: #2b325b;
 }
 
 .citation {
@@ -316,5 +310,80 @@ h1 span {
 
 @media screen and (max-width: 1010px) {
 
+    .presentation {
+        flex-direction: column;
+    }
 
+    .texte {
+        margin: auto;
+        margin-top: 140px;
+        color: rgb(43, 50, 91);
+    }
+
+    .image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .image img {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin-top: 60px;
+        margin-left: 0;
+    }
+
+    #trait-bleu {
+        width: 140px;
+    }
+
+    .citation {
+        font-size: 18px;
+    }
+
+    .citation img {
+        width: 20px;
+    }
+
+    .presentation-deux {
+        flex-direction: column;
+        background: linear-gradient(170deg, #2b325b 60%, #ca4841 60%);
+    }
+
+    .texte-deux {
+        width: 80%;
+        margin-left: 0;
+        text-align: left;
+        margin: auto;
+    }
+
+    .pro {
+        margin-right: 2px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+    }
+
+    .bulle {
+        width: 80%;
+        margin-left: 0;
+        text-align: left;
+        margin: auto;
+    }
+
+    .bulle h3 {
+        margin-top: 40px;
+        font-size: 19px;
+        line-height: 45px;
+    }
+
+    .equipe {
+        line-height: 12px;
+        font-size: 17px;
+    }
+    
+    .jacques span {
+        padding: 8px 10px 8px 10px;
+    }
   }

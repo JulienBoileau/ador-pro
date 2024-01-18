@@ -113,13 +113,28 @@
 
   .navbar {
     display: flex;
+    background-color: white;
+    height: 80px;
+    border-bottom: 2px solid rgb(202, 72, 65);
   }
 
   .navigation {
     display: none;
   }
 
-  .nav-line {
+  #nav-line {
     display: none;
+  }
+
+  .navbar img {
+    margin-left: 40px;
+    width: 200px;
+  }
+
+  .btn-primary {
+    margin-right: 20px;
+    padding-top: 9px;
+    border: none;
+    background-color: rgb(202, 72, 65);
   }
 }
