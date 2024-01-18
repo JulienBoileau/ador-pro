@@ -314,9 +314,27 @@ h1 span {
         flex-direction: column;
     }
 
+    h1 span {
+        font-size: 40%;
+        padding: 10px 12px 10px 12px;
+    }
+
+    .texte h2 {
+        font-size: 14px;
+    }
+
+    .description {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .texte hr {
+        height: 4px;
+    }
+
     .texte {
         margin: auto;
-        margin-top: 140px;
+        margin-top: 40px;
         color: rgb(43, 50, 91);
     }
 
@@ -328,17 +346,29 @@ h1 span {
     .image img {
         display: flex;
         justify-content: center;
-        width: 50%;
-        margin-top: 60px;
+        width: 60%;
+        margin-top: 25px;
         margin-left: 0;
+        box-shadow: none;
+        border: 5px solid rgb(0, 167, 157);
+    }
+
+    .image-plaquette {
+        margin-top: 30px;
+    }
+    
+    .image-plaquette img {
+        width: 80%;
     }
 
     #trait-bleu {
-        width: 140px;
+        width: 40%;
+        margin-bottom: 40px;
     }
 
     .citation {
-        font-size: 18px;
+        margin-top: 30px;
+        font-size: 80%;
     }
 
     .citation img {
@@ -362,7 +392,7 @@ h1 span {
     }
 
     .subtitle {
-        font-size: 18px;
+        font-size: 19px;
     }
 
     .bulle {
@@ -374,16 +404,55 @@ h1 span {
 
     .bulle h3 {
         margin-top: 40px;
-        font-size: 19px;
+        font-size: 18px;
         line-height: 45px;
     }
 
     .equipe {
         line-height: 12px;
-        font-size: 17px;
+        font-size: 14px;
+    }
+
+    .phrase {
+        font-size: 14px;
     }
     
     .jacques span {
         padding: 8px 10px 8px 10px;
     }
+
+  }
+
+  @media screen and (max-width: 505px)  {
+
+    .presentation {
+        width: 88%;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    h1 span {
+        font-size: 35%;
+        padding: 10px 12px 10px 12px;
+    }
+
+    .citation {
+        max-width: 80%;
+        margin: auto;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .texte h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .subtitle {
+        margin-bottom: 30px;
+    }
+
   }

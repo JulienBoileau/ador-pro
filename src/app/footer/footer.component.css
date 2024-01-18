@@ -49,3 +49,16 @@ footer {
     margin-left: 25px;
     margin-right: 25px;
 }
+
+
+@media screen and (max-width: 1010px) {
+    
+    .reseaux {
+        width: 50%;
+    }
+
+    .texte {
+        font-size: 15px;
+        width: 70%;
+    }
+}
