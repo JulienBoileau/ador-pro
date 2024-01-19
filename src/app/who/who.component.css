@@ -55,12 +55,12 @@
 
 .gerants {
     width: 70%;
-    margin-top: 100px;
     font-size: 18px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin: auto;
+    margin-top: 100px;
 }
 
 .gerants span {
@@ -148,4 +148,85 @@
               transform: translateY(0);
       opacity: 1;
     }
+  }
+
+
+  /***** RESPONSIVE TABLETTE TELEPHONE *****/
+
+  @media screen and (min-width: 600px) and (max-width: 1010px) {
+
+    .who {
+        font-size: 18px;
+        margin-top: 80px;
+    }
+    
+    #trait {
+        margin-bottom: 60px;
+        width: 320px;
+    }
+    
+    #titre {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .gerants {
+        width: 100%;
+        margin-top: 80px;
+        font-size: 16px;
+        justify-content: space-between;
+    }
+
+  }
+
+  /**** RESPONSIVE TELEPHONE ****/
+
+  @media screen and (max-width: 600px) {
+
+    .who {
+        font-size: 15px;
+        margin-top: 40px;
+    }
+    
+    #trait {
+        margin-bottom: 40px;
+        width: 240px;
+    }
+    
+    #titre {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    #logo {
+        width: 200px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .gerants {
+        width: 100%;
+        margin-top: 60px;
+        font-size: 14px;
+        flex-direction: column;
+    }
+
+    .gerants img {
+        width: 140px;
+        margin-top: 5px;
+    }
+
+    .gerants span {
+        line-height: 10px;
+    }
+
+    .bertrand {
+        margin: auto;
+        margin-top: 70px;
+    }
+
+    .jacques {
+        margin: auto;
+    }
+
   }

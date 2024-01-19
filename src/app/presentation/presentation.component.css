@@ -380,7 +380,7 @@ h1 span {
 
     .presentation-deux {
         flex-direction: column;
-        background: linear-gradient(170deg, #2b325b 60%, #ca4841 60%);
+        background: linear-gradient(170deg, #2b325b 57%, #ca4841 57%);
     }
 
     .texte-deux {
