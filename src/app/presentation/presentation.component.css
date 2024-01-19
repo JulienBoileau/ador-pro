@@ -317,6 +317,7 @@ h1 span {
     h1 span {
         font-size: 40%;
         padding: 10px 12px 10px 12px;
+        border-radius: 6px;
     }
 
     .texte h2 {
@@ -428,7 +429,20 @@ h1 span {
   @media screen and (max-width: 505px)  {
 
     .presentation {
-        width: 88%;
+        width: 92%;
+    }
+
+    .poignee {
+        background-image: url(../../assets/poignee.png);
+        background-repeat: no-repeat;
+        border: 2px solid #ca4841;
+        border-radius: 160px;
+        margin: auto;
+        margin-top: -20px;
+        z-index: 999;
+        width: 66px;
+        height: 65px;
+        box-shadow: black 2px 2px 10px;
     }
 
     h1 {
@@ -437,7 +451,7 @@ h1 span {
     }
 
     h1 span {
-        font-size: 35%;
+        font-size: 38%;
         padding: 10px 12px 10px 12px;
     }
 
@@ -451,6 +465,24 @@ h1 span {
     .texte h2 {
         display: flex;
         justify-content: center;
+        text-align: center;
+    }
+
+    .fi-sr-handshake {
+        display: none;
+    }
+
+    .image-plaquette img {
+        width: 100%;
+    }
+
+    .presentation-deux {
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .phrase {
+        font-size: 12px;
     }
 
     #accroche {
@@ -461,6 +493,15 @@ h1 span {
 
     .subtitle {
         margin-bottom: 30px;
+        line-height: 0;
+    }
+
+    .pro {
+        line-height: 40px;
+    }
+
+    .phrase {
+        line-height: 20px;
     }
 
     .ville {
