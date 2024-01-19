@@ -16,7 +16,7 @@
 <hr id="nav-line">
 
 <div class="navbar">
-    <img src="../../assets/ador_pro_logo.png" alt="logo Ador-Pro">
+    <img id="logo-ador-pro" src="../../assets/ador_pro_logo.png" alt="logo Ador-Pro">
 
     <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
         <i class="fi fi-sr-menu-burger"></i>
@@ -29,10 +29,19 @@
         </div>
         <div class="offcanvas-body">
             <div class="nav-menu">
-                <a class="nav-phone" (click)="goToHome()" data-bs-dismiss="offcanvas">Accueil</a>
-                <a class="nav-phone" (click)="goToWho()" data-bs-dismiss="offcanvas">Qui sommes-nous ?</a>
-                <a href="#">Prestations</a>
-                <a href="#">Contact</a>
+                <img id="logo2" src="../../assets/logo2.png" alt="Logo Ador PRO">
+                <hr>
+                <a class="nav-phone" (click)="goToHome()" data-bs-dismiss="offcanvas">
+                    <img src="../../assets/maison.png">&nbsp;Accueil
+                </a>
+                <a class="nav-phone" (click)="goToWho()" data-bs-dismiss="offcanvas">
+                    <img src="../../assets/question.png">&nbsp;Qui sommes-nous ?
+                </a>
+                <a href="#">
+                    <img src="../../assets/liste.png">&nbsp;Prestations
+                </a>
+                <a href="#">
+                    <img src="../../assets/appel.png">&nbsp;Contact</a>
             </div>
         </div>
     </div>

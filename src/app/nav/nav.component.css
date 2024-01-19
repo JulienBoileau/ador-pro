@@ -137,9 +137,23 @@
     margin-bottom: 15px;
   }
 
-  .navbar img {
+  #logo2 {
+    width: 150px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  #logo-ador-pro {
     margin-left: 20px;
     width: 200px;
+  }
+
+  .nav-menu hr {
+    margin-bottom: 30px;
+    height: 1px;
+    background-color: rgb(34, 32, 32);
+    opacity: 1;
+    border: none;
   }
 
   .btn-primary {
