@@ -7,7 +7,7 @@
     <ul class="menu">
         <li><a class="nav-link" (click)="goToHome()">Accueil</a></li>
         <li><a class="nav-link" (click)="goToWho()">Qui sommes-nous ?</a></li>
-        <li>Prestations</li>
+        <li><a class="nav-link" (click)="goToPrestations()">Prestations</a></li>
         <li>Contact</li>
     </ul>
 
@@ -37,7 +37,7 @@
                 <a class="nav-phone" (click)="goToWho()" data-bs-dismiss="offcanvas">
                     <i class="fi fi-sr-person-circle-question"></i>&nbsp;&nbsp;Qui sommes-nous ?
                 </a>
-                <a href="#">
+                <a a class="nav-phone" (click)="goToPrestations()" data-bs-dismiss="offcanvas">
                     <i class="fi fi-sr-broom"></i>&nbsp;&nbsp;Prestations
                 </a>
                 <a href="#">

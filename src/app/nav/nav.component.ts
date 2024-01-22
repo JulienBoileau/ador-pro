@@ -20,4 +20,8 @@ export class NavComponent {
     this.router.navigate(['/qui-sommes-nous']);
   }
 
+  goToPrestations() {
+    this.router.navigate(['/prestations']);
+  }
+
 }
