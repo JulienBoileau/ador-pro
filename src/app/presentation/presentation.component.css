@@ -54,14 +54,78 @@ h1 span {
     box-shadow: 20px -20px rgb(0, 167, 157);
 }
 
-/***** ANIMATION IMAGE *****/
+/***** ANIMATION TEXTE *****/
+
+h1 {
+	-webkit-animation: slide-in-top 1.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 1.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+#accroche {
+	-webkit-animation: slide-in-top 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.description {
+	-webkit-animation: slide-in-top 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+#hr {
+	-webkit-animation: slide-in-top 1.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 1.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.image {
+	-webkit-animation: slide-in-top 1.0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 1.0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.image-plaquette{
+	-webkit-animation: slide-in-top 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.citation{
+	-webkit-animation: slide-in-top 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+#trait-bleu {
+	-webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.presentation-deux {
+	-webkit-animation: slide-in-top 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
 
 
-/*.image img:hover {
-    transform: scale(1.10);
-    box-shadow: 20px -20px rgb(0, 167, 157);
-    transition-duration: 0.8s;
-}*/
+@-webkit-keyframes slide-in-top {
+    0% {
+      -webkit-transform: translateY(-1000px);
+              transform: translateY(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-top {
+    0% {
+      -webkit-transform: translateY(-1000px);
+              transform: translateY(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
 
 .image-plaquette {
     display: flex;

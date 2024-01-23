@@ -46,11 +46,19 @@ h1 {
 .client {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    width: 30%;
     background-color: #2b325b;
     color: white;
-    padding: 15px 18px 10px 18px;
+    padding: 15px;
     border-radius: 10px;
     box-shadow: rgb(36, 36, 36) 2px 2px 10px;
+}
+
+.client i {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
 }
 
 #panel {
@@ -91,6 +99,8 @@ h1 {
 }
 
 h2 {
+    display: flex;
+    justify-content: center;
     margin-bottom: 20px;
 }
 
@@ -102,7 +112,12 @@ h2 span {
     padding: 10px 20px 10px 20px;
 }
 
+#calendrier, #horloge, #cible {
+    color: white;
+}
+
 .services {
+    width: 26%;
     background-color: #c5c6cc;
     padding: 15px;
     border-radius: 10px;
@@ -181,3 +196,146 @@ h2 span {
       opacity: 1;
     }
   }
+
+
+/****** RESPONSIVE TABLETTE ******/
+
+  @media screen and (min-width: 930px) and (max-width: 1385px) {
+  
+    .client {
+        font-size: 14px;
+    }
+
+    #panel {
+        font-size: 18px;
+    }
+
+    h2 span {
+        font-size: 18px;
+        padding: 8px 15px 8px 15px;
+    }
+
+    #liste {
+        width: 70px;
+    }
+
+    .services {
+        width: 30%;
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 929px) {
+
+    .client {
+        width: 32%;
+        font-size: 12px;
+    }
+
+    .client i {
+        font-size: 25px;
+        margin-left: 8px;
+    }
+
+    .cards {
+        justify-content: space-between;
+    }
+
+    #panel {
+        font-size: 15px;
+    }
+
+    #panel span {
+        padding: 10px 58px 10px 15px;
+    }
+
+    h2 span {
+        font-size: 16px;
+        padding: 6px 12px 6px 12px;
+    }
+
+    #liste {
+        width: 55px;
+        top: -10px;
+        right: 0px;
+    }
+
+    .services {
+        width: 32%;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+
+    #titre {
+        margin-top: 40px;
+        font-size: 20px;
+    }
+
+    #trait-bleu {
+        width: 180px;
+        margin-bottom: 30px;
+    }
+
+    #panel {
+        background-color: #ca4841;
+        margin: auto;
+        margin-top: 50px;
+        padding: 15px;
+        width: 90%;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        border: 1px solid rgb(0, 0, 0);
+    }
+
+    #panel span {
+        background: none;
+        padding: 10px;
+    }
+
+    #liste {
+        display: none;
+    }
+
+    .intro {
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .cards {
+        flex-direction: column;
+        margin-top: 5px;
+    }
+
+    .client {
+        width: 90%;
+        margin: auto;
+        margin-top: 18px;
+    }
+
+    .cards-two {
+        margin-top: 50px;
+        padding: 15px;
+        flex-direction: column;
+    }
+
+    .services {
+        width: 90%;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    h2 span {
+        font-size: 14px;
+    }
+
+    #calendrier, #horloge, #cible {
+        font-size: 17px;
+    }
+
+}
