@@ -1,10 +1,14 @@
 
 .presentation {
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Exo 2', sans-serif;
     display: flex;
     flex-direction: row;
     width: 80%;
     margin: auto;
+}
+
+.presentation-deux, .citation {
+    font-family: "Exo 2", sans-serif;
 }
 
 .texte {
@@ -145,7 +149,6 @@ h1 {
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     padding: 35px 0px 18px 5px;
-    font-family: 'Helvetica', sans-serif;
     width: 80%;
     margin: auto;
     margin-top: 10px;
@@ -191,6 +194,15 @@ h1 {
     line-height: 20px;
 }
 
+.mail a, .tel a, .ville a {
+    text-decoration: none;
+    color: white;
+}
+
+.mail a:hover, .tel a:hover, .ville a:hover {
+    color: #2b325b;
+}
+
 .jacques span {
     background-color: white;
     color: #ca4841;
@@ -203,7 +215,6 @@ h1 {
 }
 
 .citation {
-    font-family: 'Helvetica', sans-serif;
     font-size: 25px;
     color: #2b325b;
     margin-top: 80px;
