@@ -58,6 +58,11 @@ h1 span {
     box-shadow: 20px -20px rgb(0, 167, 157);
 }
 
+.nav-link {
+    cursor: pointer;
+}
+
+
 /***** ANIMATION TEXTE *****/
 
 #poignee {
@@ -218,6 +223,11 @@ h1 {
 
 .jacques {
     margin-bottom: 20px;
+}
+
+.jacques span:hover {
+    color: white;
+    background-color: #2b325b;
 }
 
 .citation {
