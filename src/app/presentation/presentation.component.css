@@ -60,10 +60,16 @@ h1 span {
 
 /***** ANIMATION TEXTE *****/
 
+#poignee {
+    -webkit-animation: slide-in-top 1.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-in-top 1.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
 h1 {
 	-webkit-animation: slide-in-top 1.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-in-top 1.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+
 
 #accroche {
 	-webkit-animation: slide-in-top 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -513,6 +519,7 @@ h1 {
     h1 {
         display: flex;
         justify-content: center;
+        margin-top: 40px;
     }
 
     h1 span {
@@ -525,7 +532,7 @@ h1 {
         display: flex;
         justify-content: center;
         margin: auto;
-        margin-top: -35px;
+        margin-top: -122px;
         z-index: -999;
         width: 150px;
     }
@@ -561,7 +568,7 @@ h1 {
     }
 
     #accroche {
-        margin-top: 10px;
+        margin-top: 40px;
         margin-bottom: 20px;
         line-height: 20px;
     }

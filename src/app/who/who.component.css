@@ -221,12 +221,20 @@
     }
 
     .gerants img {
+        display: flex;
+        justify-content: center;
+        margin: auto;
         width: 140px;
-        margin-top: 5px;
+        margin-top: 25px;
     }
 
     .gerants span {
         line-height: 10px;
+    }
+
+    .nom {
+        display: flex;
+        justify-content: center;
     }
 
     .bertrand {
@@ -237,5 +245,4 @@
     .jacques {
         margin: auto;
     }
-
   }
