@@ -11,6 +11,10 @@
     margin-top: 80px;
 }
 
+#presta {
+    display: none;
+}
+
 #titre {
     margin-top: 60px;
     font-size: 30px;
@@ -285,6 +289,7 @@ h2 span {
     #trait-bleu {
         width: 180px;
         margin-bottom: 30px;
+        margin-top: 10px;
     }
 
     #panel {
@@ -295,12 +300,16 @@ h2 span {
         width: 90%;
         border-top-right-radius: 40px;
         border-bottom-left-radius: 40px;
-        border: 1px solid rgb(0, 0, 0);
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border: 2px solid #2b325b;
+        box-shadow: rgb(104, 102, 102) 2px 2px 10px;
     }
 
     #panel span {
         background: none;
         padding: 10px;
+        margin: 0px 15px 0px 15px;
     }
 
     #liste {
@@ -329,6 +338,7 @@ h2 span {
     .cards-two {
         margin-top: 50px;
         padding: 15px;
+        padding-bottom: 30px;
         flex-direction: column;
     }
 
@@ -345,6 +355,15 @@ h2 span {
 
     #calendrier, #horloge, #cible {
         font-size: 17px;
+    }
+
+    #presta {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        margin-top: -32px;
+        margin-left: -10px;
+
     }
 
 }

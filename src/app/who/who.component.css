@@ -213,6 +213,10 @@
         margin-bottom: 40px;
     }
 
+    #p1 a {
+        white-space: nowrap;
+    }
+
     .gerants {
         width: 100%;
         margin-top: 60px;
