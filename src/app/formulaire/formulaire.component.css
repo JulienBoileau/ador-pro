@@ -1,0 +1,180 @@
+
+.formulaire {
+    font-family: "Exo 2", sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    color: #2b325b;
+    font-size: 27px;
+}
+
+#titre {
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#trait-bleu {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    width: 320px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 80px;
+    width: 30%;
+}
+
+form label {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ca4841;
+    margin-bottom: 5px;
+}
+
+.prestation {
+    margin-bottom: 20px;
+}
+
+.selection {
+    margin-top: 20px;
+}
+
+.form-control {
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+button {
+    font-size: 18px;
+    margin-top: 30px;
+    color: white;
+    background-color: #ca4841;
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+}
+
+
+/***** ANIMATION TEXTE *****/
+
+#titre {
+	-webkit-animation: slide-in-top 1.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 1.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+#trait-bleu {
+	-webkit-animation: slide-in-top 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.structure{
+	-webkit-animation: slide-in-top 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.prestation {
+	-webkit-animation: slide-in-top 1.0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 1.0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.entreprise{
+	-webkit-animation: slide-in-top 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.nom{
+	-webkit-animation: slide-in-top 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.email{
+	-webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.telephone{
+	-webkit-animation: slide-in-top 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.form-check{
+	-webkit-animation: slide-in-top 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+button{
+	-webkit-animation: slide-in-top 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-in-top {
+    0% {
+      -webkit-transform: translateY(-1000px);
+              transform: translateY(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-top {
+    0% {
+      -webkit-transform: translateY(-1000px);
+              transform: translateY(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  /******** REPONSIVE **********/
+
+  @media screen and (max-width: 1010px) {
+
+    form {
+        width: 75%;
+    }
+  }
+
+  
+  @media screen and (max-width: 600px) {
+
+    form {
+        margin-top: 40px;
+    }
+
+    #titre {
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    #trait-bleu {
+        width: 180px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .selection option {
+        font-size: 14px;
+    }
+  }
+

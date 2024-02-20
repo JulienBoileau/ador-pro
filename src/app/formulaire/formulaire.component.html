@@ -1,0 +1,47 @@
+<app-nav></app-nav>
+
+<section class="formulaire">
+
+  <h1 id="titre">Contact&nbsp;&nbsp;<i class="fi fi-sr-journal"></i></h1>
+  <img id="trait-bleu" src="../../assets/trait-bleu.png" alt="Trait bleu">
+
+  <form action="https://formspree.io/f/xrgnqyrl" method="POST">
+
+    <div class="selection structure">
+      <label for="profils">Votre structure</label>
+        <select class="form-select" aria-label="Default select example" name="Profil" id="profils" required="">
+            <option value="" selected="" disabled="">Choisir</option>
+            <option value="proprietaire">Propriétaire ou gestionnaire de copropriétés</option>
+            <option value="entreprise">Entreprise, profession libérale ou collectivité</option>
+            <option value="commercant">Commerçant, artisant ou industriel</option>
+        </select>
+    </div>
+
+    <div class="selection prestation">
+      <label for="services">Prestation souhaitée</label>
+        <select class="form-select" aria-label="Default select example" name="Service" id="services" required="">
+            <option value="" selected="" disabled="">Choisir</option>
+            <option value="entretien">Entretien courant</option>
+            <option value="vitrerie">Vitrerie</option>
+            <option value="espaces">Espaces verts</option>
+            <option value="remise">Remise en état</option>
+            <option value="repas">Service repas en entreprise</option>
+        </select>
+    </div>
+
+    <input class="form-control entreprise" id="exampleFormControlInput1" type="text" name="Entreprise" placeholder="Nom de votre entreprise" required>
+
+    <input class="form-control nom" id="exampleFormControlInput2" type="text" name="Nom" placeholder="Nom et prénom" required>
+
+    <input class="form-control email" id="exampleFormControlInput3" type="email" name="Mail" placeholder="Adresse email" required>
+
+    <input class="form-control telephone" id="exampleFormControlInput4" type="tel" name="Telephone" placeholder="Téléphone" required>
+
+    <button type="submit">Envoyer ma demande</button>
+
+  </form>
+
+</section>
+
+<app-footer></app-footer>
+

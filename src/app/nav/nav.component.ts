@@ -24,4 +24,8 @@ export class NavComponent {
     this.router.navigate(['/prestations']);
   }
 
+  goToContact() {
+    this.router.navigate(['/formulaire']);
+  }
+
 }

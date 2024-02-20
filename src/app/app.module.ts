@@ -9,6 +9,8 @@ import { PresentationComponent } from './presentation/presentation.component';
 import { WhoComponent } from './who/who.component';
 import { FooterComponent } from './footer/footer.component';
 import { PrestationsComponent } from './prestations/prestations.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormulaireComponent } from './formulaire/formulaire.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +20,13 @@ import { PrestationsComponent } from './prestations/prestations.component';
     PresentationComponent,
     WhoComponent,
     FooterComponent,
-    PrestationsComponent
+    PrestationsComponent,
+    FormulaireComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

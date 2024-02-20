@@ -10,7 +10,7 @@
         <li><a class="nav-link" (click)="goToHome()">Accueil</a></li>
         <li><a class="nav-link" (click)="goToWho()">Qui sommes-nous ?</a></li>
         <li><a class="nav-link" (click)="goToPrestations()">Prestations</a></li>
-        <li>Contact</li>
+        <li><a class="nav-link" (click)="goToContact()">Contact</a></li>
     </ul>
 
 </div>
@@ -41,10 +41,10 @@
                 <a class="nav-phone" (click)="goToWho()" data-bs-dismiss="offcanvas">
                     <i class="fi fi-sr-person-circle-question"></i>&nbsp;&nbsp;Qui sommes-nous ?
                 </a>
-                <a a class="nav-phone" (click)="goToPrestations()" data-bs-dismiss="offcanvas">
+                <a class="nav-phone" (click)="goToPrestations()" data-bs-dismiss="offcanvas">
                     <i class="fi fi-sr-broom"></i>&nbsp;&nbsp;Prestations
                 </a>
-                <a href="#">
+                <a class="nav-phone" (click)="goToContact()" data-bs-dismiss="offcanvas">
                     <i class="fi fi-sr-phone-call"></i>&nbsp;&nbsp;Contact
                 </a>
             </div>
