@@ -391,4 +391,14 @@ h2 span {
 
     }
 
+    #review-line {
+        margin-top: 60px;
+        width: 100%;
+    }
+    
+    .review-title {
+        margin-top: 20px;  
+        font-size: 17px;
+    }
+
 }

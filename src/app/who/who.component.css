@@ -92,6 +92,15 @@
     line-height: 8px;
 }
 
+.lien-contact a {
+    text-decoration: none;
+    color: #2b325b;
+}
+
+.lien-contact a:hover {
+    color: #ca4841;
+}
+
 
 /***** ANIMATION TEXTE *****/
 
