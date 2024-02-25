@@ -141,6 +141,27 @@ h2 span {
     color: #ca4841;
 }
 
+#review-line {
+    margin: auto;
+    margin-top: 100px;
+    border: none;
+    width: 70%;
+    height: 2px;
+    background-color: #2b325b;
+    opacity: 1;
+}
+
+.review-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: #2b325b;
+}
+
+.google-reviews {
+    margin-top: 30px;
+}
+
 /***** ANIMATION TEXTE *****/
 
 #titre {
