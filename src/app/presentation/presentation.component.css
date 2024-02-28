@@ -63,6 +63,7 @@ h1 span {
 }
 
 
+
 /***** ANIMATION TEXTE *****/
 
 #poignee {
@@ -248,6 +249,61 @@ h1 {
 .fitwo {
     image-orientation: revert;
 }
+
+.partenaires {
+    font-family: 'Exo 2', sans-serif;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#titre-partenaire {
+    font-weight: bold;
+    color: #2b325b;
+}
+
+.ligne-partenaire {
+    background-color: #2b325b;
+    height: 1px;
+    border: none;
+    opacity: 1;
+}
+
+.ligne-une {
+    height: 5px;
+}
+
+.ligne-client {
+    background-color: #ca4841;
+    height: 5px;
+    border: none;
+    opacity: 1;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: auto;
+    width: 80%;
+}
+
+.images img {
+    width: 250px;
+    width: 200px;
+}
+
+#titre-client {
+    margin-top: 120px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #ca4841;
+}
+
+#titre-client strong {
+    font-size: 35px;
+}
+
 
 
 
