@@ -1,5 +1,5 @@
 
-  .carousel {
+  .carousel-desktop {
     min-width: 900px;
     max-width: 1236px;
     margin-left: auto;
@@ -236,59 +236,9 @@
   }
   
   @media screen and (max-width: 1023px) {
-    .carousel {
-      padding-left: 0;
-      padding-right: 0;
-    }
-  
-    .activator:nth-of-type(n):checked ~ .controls:nth-of-type(n) {
+
+    .partenaires {
       display: none;
     }
-  
-    .activator:nth-of-type(n):checked ~ .screen .track {
-      transform: none;
-    }
-  
-    .screen {
-      margin-left: 0;
-      margin-right: 0;
-    }
-  
-    .track {
-      overflow-x: auto;
-      width: auto;
-      padding-left: 48px;
-      padding-right: 48px;
-    }
-  
-    .item--tablet-in-1 {
-      width: 90%;
-    }
-  
-    .item--tablet-in-2 {
-      width: 45%;
-    }
-  
-    .item--tablet-in-3 {
-      width: 30%;
-    }
-  }
-  
-  @media screen and (max-width: 650px) {
-    .track {
-      padding-left: 0;
-      padding-right: 0;
-    }
-  
-    .item--mobile-in-1 {
-      width: 90%;
-    }
-  
-    .item--mobile-in-2 {
-      width: 45%;
-    }
-  
-    .item--mobile-in-3 {
-      width: 30%;
-    }
+
   }

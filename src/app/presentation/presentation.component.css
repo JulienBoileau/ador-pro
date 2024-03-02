@@ -11,6 +11,14 @@
     font-family: "Exo 2", sans-serif;
 }
 
+.carousels-mobile {
+    display: none;
+}
+
+#titre-partenaire-deux, .ligne-partenaire-deux {
+    display: none;
+}
+
 .texte {
     margin-top: 100px;
     color: rgb(43, 50, 91);
@@ -258,9 +266,16 @@ h1 {
 }
 
 #titre-partenaire {
-    font-weight: bold;
     color: #2b325b;
 }
+
+#titre-partenaire strong {
+    font-size: 35px;
+}
+
+.fi-sr-team-check {
+    font-size: 38px;
+} 
 
 .ligne-partenaire {
     background-color: #2b325b;
@@ -295,17 +310,12 @@ h1 {
 
 #titre-client {
     margin-top: 120px;
-    padding-top: 15px;
-    padding-bottom: 15px;
     color: #ca4841;
 }
 
 #titre-client strong {
     font-size: 35px;
 }
-
-
-
 
 
 /******* RESPONSIVE ORDINATEUR PETITE TAILLE *******/
@@ -452,6 +462,14 @@ h1 {
         line-height: 16px;
     }
 
+    .images {
+        width: 95%;
+    }
+    
+    .images img {
+        width: 150px;
+    }
+
   }
 
 
@@ -459,6 +477,68 @@ h1 {
 /******* RESPONSIVE MOBILE *******/
 
 @media screen and (max-width: 1010px) {
+
+    .carousels-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        width: 80%;
+    }
+
+    .carousel-indicators button {
+        opacity: 0;
+    }
+
+    .ligne-partenaire-deux {
+        background-color: #2b325b;
+        height: 5px;
+        border: none;
+        opacity: 1;
+    }
+
+    #titre-client {
+        margin-top: 30px;
+    }
+
+    .carousel-block-one {
+        margin: auto;
+        width: 75%;
+        height: 200px;
+        border: 4px solid #2b325b;
+        border-radius: 25px;
+        padding: 30px;
+    }
+
+    .carousel-block-two {
+        margin: auto;
+        width: 75%;
+        height: 200px;
+        border: 4px solid #ca4841;
+        border-radius: 25px;
+        padding: 30px;
+    }
+
+    .carousel-item img {
+        height: 140px;
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+    .fleche-one {
+        background-color: #2b325b;
+    }
+
+    .fleche-two {
+        background-color: #ca4841;
+    }
+
+
+    .demo-container {
+        display: none;
+    }
 
     .presentation {
         flex-direction: column;
@@ -574,6 +654,14 @@ h1 {
         padding: 8px 10px 8px 10px;
     }
 
+    .images {
+        width: 95%;
+    }
+    
+    .images img {
+        width: 120px;
+    }
+
   }
 
   @media screen and (max-width: 505px)  {
@@ -654,6 +742,23 @@ h1 {
 
     .ville {
         line-height: 20px;
+    }
+
+    #titre-partenaire {
+        font-size: 20px;
+    } 
+
+    #titre-partenaire strong {
+        font-size: 26px;
+    }
+
+    #titre-client {
+        margin-top: 0px;
+        font-size: 20px;
+    }
+
+    #titre-client strong {
+        font-size: 26px;
     }
 
   }
