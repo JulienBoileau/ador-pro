@@ -485,11 +485,15 @@ h1 {
         margin: auto;
         margin-top: 40px;
         margin-bottom: 50px;
-        width: 80%;
+        width: 85%;
     }
 
     .carousel-indicators button {
         opacity: 0;
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        margin: -25px;
     }
 
     .ligne-partenaire-deux {
@@ -759,6 +763,11 @@ h1 {
 
     #titre-client strong {
         font-size: 26px;
+    }
+
+    .ligne-une, .ligne-client {
+        margin: 0;
+        margin-bottom: 20px;
     }
 
   }
