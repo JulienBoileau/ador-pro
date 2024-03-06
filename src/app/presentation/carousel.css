@@ -131,6 +131,14 @@
   .activator:nth-of-type(10):checked ~ .screen .track {
     transform: translateX(-900%);
   }
+
+  .activator:nth-of-type(11):checked ~ .controls:nth-of-type(10) {
+    display: flex;
+  }
+  
+  .activator:nth-of-type(11):checked ~ .screen .track {
+    transform: translateX(-1000%);
+  }
   
   .screen {
     overflow: hidden;
@@ -176,7 +184,7 @@
   .demo-container {
     display: flex;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 25px;
   }
   
   .demo-content {
@@ -196,7 +204,29 @@
   .demo-content img {
     max-height: 100%;
     max-width: 100%;
-    object-fit: cover;
+    object-fit: contain;
+  }
+
+  .demo-content a {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 90%;
+    height: 90%;
+    cursor: pointer;
+  }
+
+  .paraph-content {
+    flex-direction: column;
+    text-decoration: none;
+    color: #2b325b;
+  }
+
+  .demo-content p {
+    font-family: 'Exo 2', sans-serif;
+    margin-top: 6px;
+    font-size: 14px;
+    text-align: center;
   }
   
   .item:nth-child(1) .demo-content {
@@ -232,6 +262,10 @@
   }
 
   .item:nth-child(9) .demo-content {
+    background-color: white;
+  }
+
+  .item:nth-child(10) .demo-content {
     background-color: white;
   }
   

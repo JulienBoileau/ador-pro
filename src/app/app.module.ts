@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { PrestationsComponent } from './prestations/prestations.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormulaireComponent } from './formulaire/formulaire.component';
+import { MentionsLegalesComponent } from './mentions-legales/mentions-legales.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FormulaireComponent } from './formulaire/formulaire.component';
     WhoComponent,
     FooterComponent,
     PrestationsComponent,
-    FormulaireComponent
+    FormulaireComponent,
+    MentionsLegalesComponent
   ],
   imports: [
     BrowserModule,
