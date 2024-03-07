@@ -1,0 +1,29 @@
+
+.mentions-legales {
+    font-family: 'Exo 2', sans-serif;
+    margin: auto;
+    margin-top: 80px;
+    width: 70%;
+    color: #2b325b;
+}
+
+.mentions-legales h2 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .mentions-legales {
+        margin-top: 50px;
+        font-size: 14px;
+    }
+
+    .mentions-legales h2 {
+        font-size: 22px;
+    }
+
+    .mentions-legales h4 {
+        font-size: 19px;
+    }
+}

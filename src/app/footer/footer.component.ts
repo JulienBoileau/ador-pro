@@ -12,6 +12,10 @@ export class FooterComponent {
 
   ngOnInit(): void {}
 
+  goToContact() {
+    this.router.navigate(['/formulaire']);
+  }
+
   goToMentions() {
     this.router.navigate(['/mentions-legales']);
   }

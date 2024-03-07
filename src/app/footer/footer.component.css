@@ -58,6 +58,12 @@ footer {
     color: #ca4841;
 }
 
+#kodium {
+    color: white;
+    font-size: 11px;
+    margin-left: 15px;
+}
+
 
 @media screen and (max-width: 1010px) {
 
