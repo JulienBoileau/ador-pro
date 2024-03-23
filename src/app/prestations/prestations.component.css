@@ -132,6 +132,14 @@ h2 span {
     color: rgb(43, 50, 91);
 }
 
+.services img {
+    height: 180px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
 .activites {
     font-weight: bold;
 }
@@ -300,7 +308,7 @@ h2 span {
     }
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 800px) {
 
     #titre {
         margin-top: 40px;
@@ -371,7 +379,7 @@ h2 span {
     }
 
     .services2 {
-        width: 95%;
+        width: 90%;
     }
 
     h2 span {
@@ -399,6 +407,10 @@ h2 span {
     .review-title {
         margin-top: 20px;  
         font-size: 17px;
+    }
+
+    .services img {
+        height: 140px;
     }
 
 }
